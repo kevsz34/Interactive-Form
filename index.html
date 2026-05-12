@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Intro component form</title>
+</head>
+<body>
+    <div id="firstContainer">
+        <section id="cardLanding">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </section>
+    </div>
+
+    <div id="secondContainer">
+        <article id="cardTrial"><p>Try it free 7 days <span>then $20/mo. thereafter
+            </span>
+        </p></article>
+
+        <article id="cardForm">
+
+            <section id="sectForm">
+                <form action="">
+                    <input type="text" placeholder="First Name" name="First Name" class="firstN">
+                    <p id="firstNP"></p>
+
+                    <input type="text" placeholder="Last Name" name="Last Name" class="secondN">
+                    <p id="secondNP"></p>
+
+                    <input type="email" placeholder="Email Address" name="Email" class="email" autocomplete="email">
+                    <p id="emailP"></p>
+
+                    <input type="password" placeholder="Password" name="Password" class="password">
+                    <p id="passwordP"></p>
+                    
+                    <button onclick="claim()">CLAIM YOUR FREE TRIAL</button>
+                </form>
+            </section>
+
+            <section id="termsConditions">
+                <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </section>
+
+        </article>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

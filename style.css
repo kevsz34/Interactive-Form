@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: 'Poppins';
+    background: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    min-height: 100vh;
+}
+#firstContainer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 100vh;
+    flex: 1;
+}
+#cardLanding{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    color: white;
+}
+#cardLanding h1{
+    font-size: 60px;
+    line-height: 60px;
+    max-width:600px;
+    padding-bottom: 30px;
+}
+#cardLanding p{
+    font-size: 20px;
+}
+#secondContainer{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    flex: 1;
+    min-height: 100vh;
+}
+#cardTrial{
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.22);
+}
+span{
+    color:hsl(246, 25%, 77%);
+}
+#cardForm{
+    border-radius: 10px;
+    padding: 40px;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.22);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+form p{
+            font-style: italic;
+    color: hsl(0, 100%, 74%) ;
+    align-self: flex-end;
+    padding-bottom: 15px;
+    font-size: 12px;
+
+}
+input{
+    border: 1px solid hsl(246, 25%, 77%) ;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+}
+input:focus{
+    color: hsl(249, 10%, 26%);
+    
+    border:  1px solid hsl(249, 10%, 26%)  ;
+}
+
+.input-error {
+    background: url(images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 450px;
+    border: 2px solid red;
+}
+button{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-bottom: 4px solid hsl(154, 56%, 42%);
+    border-radius: 10px;
+    padding: 20px;
+}
+button:hover{
+    background-color: hsla(154, 59%, 51%, 0.702);
+}
+#termsConditions{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+#termsConditions p{
+    color: hsl(246, 25%, 77%);
+}
+a{
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
