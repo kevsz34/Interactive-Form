@@ -101,7 +101,7 @@ button{
     background-color: hsl(154, 59%, 51%);
     border: none;
     border-bottom: 4px solid hsl(154, 56%, 42%);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
 }
 button:hover{
@@ -119,4 +119,48 @@ a{
     font-weight: 600;
     color: hsl(0, 100%, 74%);
     text-decoration: none;
+}
+@media (max-width:600px){
+    body{
+        flex-direction: column;
+    }
+    #firstContainer{
+justify-content: center;
+min-height: 50vh;
+    }
+    #cardLanding{
+        justify-content: center;
+        align-items: center;
+        max-width: 350px;
+    }
+    #cardLanding h1{
+        line-height: 40px;
+        text-align: center;
+        font-size: 30px;
+        width: 400px;
+        
+    }
+    #cardLanding p{
+        font-size: 18px;
+        width: 350px;
+        text-align: center;
+    }
+    #secondContainer{
+        align-items: center;
+        min-height: 50vh;
+    }
+    #cardTrial{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    #cardTrial p{
+        width: 80%;
+    }
+    #cardForm{
+        width: 90%;
+    }
+    button{
+        font-size: 15px;
+    }
 }
